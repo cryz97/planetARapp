@@ -9,6 +9,15 @@ class SelectModelPage extends StatefulWidget {
 
 class _SelectModelPageState extends State<SelectModelPage> {
   final List<Planet> _planets = planets;
+
+  final Planet moon = new Planet(
+      name: 'Luna',
+      distance: 0.5,
+      imgAssetPath: 'assets/images/moon.jpg',
+      vidAssetPath: 'assets/images/moon.webp',
+      vid3DAssetPath: 'assets/videos/Luna3D.mp4',
+      textureAssetPath: 'assets/textures/moonTexture.jpg',
+      equatorial: 0.25);
   @override
   Widget build(BuildContext context) {
     Widget _createTile(Planet _currentPlanet) {
@@ -16,7 +25,7 @@ class _SelectModelPageState extends State<SelectModelPage> {
         padding: EdgeInsets.symmetric(vertical: 1),
         child: SizedBox(
             width: double.infinity,
-            height: MediaQuery.of(context).size.height * 0.10,
+            height: MediaQuery.of(context).size.height * 0.11,
             child: Container(
               color: Colors.purple.withOpacity(0.5),
               child: ListTile(
@@ -54,12 +63,12 @@ class _SelectModelPageState extends State<SelectModelPage> {
           _createTile(_planets[0]),
           _createTile(_planets[1]),
           _createTile(_planets[2]),
+          _createTile(moon),
           _createTile(_planets[3]),
           _createTile(_planets[4]),
           _createTile(_planets[5]),
           _createTile(_planets[6]),
           _createTile(_planets[7]),
-          _createTile(_planets[8]),
         ],
       ),
     );

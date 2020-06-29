@@ -9,6 +9,14 @@ class SelectArModelPage extends StatefulWidget {
 
 class _SelectArModelPageState extends State<SelectArModelPage> {
   final List<Planet> _planets = planets;
+  final Planet moon = new Planet(
+      name: 'Luna',
+      distance: 0.5,
+      imgAssetPath: 'assets/images/moon.jpg',
+      vidAssetPath: 'assets/images/moon.webp',
+      vid3DAssetPath: 'assets/videos/Luna3D.mp4',
+      textureAssetPath: 'assets/textures/moonTexture.jpg',
+      equatorial: 0.25);
   @override
   Widget build(BuildContext context) {
     Widget _createButton(Planet _currentPlanet) {
@@ -51,12 +59,12 @@ class _SelectArModelPageState extends State<SelectArModelPage> {
           _createButton(_planets[0]),
           _createButton(_planets[1]),
           _createButton(_planets[2]),
+          _createButton(moon),
           _createButton(_planets[3]),
           _createButton(_planets[4]),
           _createButton(_planets[5]),
           _createButton(_planets[6]),
           _createButton(_planets[7]),
-          _createButton(_planets[8]),
         ],
       ),
     );

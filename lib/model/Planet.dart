@@ -76,14 +76,6 @@ List<Planet> planets = <Planet>[
       textureAssetPath: 'assets/textures/earthTexture.jpg',
       equatorial: 1),
   Planet(
-      name: 'Luna',
-      distance: 0.5,
-      imgAssetPath: 'assets/images/moon.jpg',
-      vidAssetPath: 'assets/images/moon.webp',
-      vid3DAssetPath: 'assets/videos/Luna3D.mp4',
-      textureAssetPath: 'assets/textures/moonTexture.jpg',
-      equatorial: 0.25),
-  Planet(
       name: 'Marte',
       moons: [
         Moon(
