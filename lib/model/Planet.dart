@@ -5,7 +5,7 @@ List<Planet> planets = <Planet>[
       name: 'Mercurio',
       color: Colors.blueGrey,
       diameter: 0.383,
-      distance: 1,
+      distance: 0.5,
       moons: [],
       description:
           'Mercurio es el planeta más pequeño y cercano al Sol del Sistema Solar.'
@@ -27,7 +27,7 @@ List<Planet> planets = <Planet>[
       name: 'Venus',
       color: Colors.orangeAccent,
       diameter: 0.949,
-      distance: 1,
+      distance: 0.5,
       moons: [],
       description:
           'Venus es el segundo planeta desde el Sol, orbitándolo cada 224.7 días terrestres. Es un planeta terrestre ',
@@ -61,7 +61,7 @@ List<Planet> planets = <Planet>[
         )
       ],
       diameter: 1.0,
-      distance: 1,
+      distance: 0.5,
       description:
           'La Tierra es el tercer planeta desde el Sol y el único objeto astronómico que se sabe que alberga la vida.',
       intro:
@@ -77,6 +77,7 @@ List<Planet> planets = <Planet>[
       equatorial: 1),
   Planet(
       name: 'Luna',
+      distance: 0.5,
       imgAssetPath: 'assets/images/moon.jpg',
       vidAssetPath: 'assets/images/moon.webp',
       vid3DAssetPath: 'assets/videos/Luna3D.mp4',
