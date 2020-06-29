@@ -1,0 +1,28 @@
+name: planetapp
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  shared_preferences: ^0.5.1+1
+  arcore_flutter_plugin: ^0.0.5+1
+  video_player: ^0.10.11+1
+  url_launcher: ^5.4.11
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+      - assets/images/
+      - assets/textures/
+      - assets/videos/
+
