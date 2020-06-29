@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:planetapp/model/Text.dart';
+import 'package:planetapp/model/Planet.dart';
 import 'package:planetapp/ui/astronautPages/customPageRoutes.dart';
 import 'package:planetapp/ui/astronautPages/planetPage.dart';
 

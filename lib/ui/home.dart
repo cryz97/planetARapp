@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:planetapp/ui/modelsArPages/viewAR.dart';
+import 'package:planetapp/ui/modelsArPages/selectArModelPage.dart';
 import 'package:planetapp/ui/normalModelsPages/selectModelPage.dart';
 import 'package:video_player/video_player.dart';
 
@@ -75,7 +75,7 @@ class _HomePageState extends State<HomePage> {
                   }, "Exploración astronauta"),
                   _createButton(() {
                     Navigator.of(context).pushReplacement(
-                        MaterialPageRoute(builder: (_) => ViewARPage()));
+                        MaterialPageRoute(builder: (_) => SelectArModelPage()));
                   }, "Modelos 3D RA"),
                   _createButton(() {
                     Navigator.of(context).pushReplacement(

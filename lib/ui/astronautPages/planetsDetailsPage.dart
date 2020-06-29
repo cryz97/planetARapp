@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:planetapp/model/Text.dart';
+import 'package:planetapp/model/Planet.dart';
 import 'package:planetapp/ui/astronautPages/celestialBodyWidget.dart';
 
 class PlanetDetailsPage extends StatefulWidget {

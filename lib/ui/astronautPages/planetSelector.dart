@@ -1,7 +1,7 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:planetapp/model/Text.dart';
+import 'package:planetapp/model/Planet.dart';
 import 'package:planetapp/ui/astronautPages/planetWidget.dart';
 
 class PlanetSelector extends StatefulWidget {
