@@ -70,15 +70,15 @@ class _HomePageState extends State<HomePage> {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: <Widget>[
                   _createButton(() {
-                    Navigator.of(context).pushReplacement(
+                    Navigator.of(context).push(
                         MaterialPageRoute(builder: (_) => SolarSystemPage()));
                   }, "Exploración astronauta"),
                   _createButton(() {
-                    Navigator.of(context).pushReplacement(
+                    Navigator.of(context).push(
                         MaterialPageRoute(builder: (_) => SelectArModelPage()));
                   }, "Modelos 3D RA"),
                   _createButton(() {
-                    Navigator.of(context).pushReplacement(
+                    Navigator.of(context).push(
                         MaterialPageRoute(builder: (_) => SelectModelPage()));
                   }, "Modelos 3D"),
                 ],
