@@ -34,7 +34,8 @@ class WelcomePage extends StatelessWidget {
             borderRadius: BorderRadius.circular(24),
           ),
           onPressed: () async {
-            const url = 'https://flutter.io';
+            const url =
+                'https://play.google.com/store/apps/details?id=com.google.ar.core&hl=es_MX';
             if (await canLaunch(url)) {
               await launch(url);
             } else {
@@ -42,7 +43,7 @@ class WelcomePage extends StatelessWidget {
             }
           },
           color: Colors.white,
-          child: Text('Mas informacion', style: TextStyle(color: Colors.red)),
+          child: Text('Descargar AR Core', style: TextStyle(color: Colors.red)),
         ));
 
     return Scaffold(
